@@ -1,0 +1,1000 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voz Líder | Gabriella Parra</title>
+<meta name="description" content="Transforme sua comunicação e transmita mais segurança, presença e autoridade. Treinamento prático Voz Líder, com Gabriella Parra.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap">
+<style>
+body { margin: 0; }
+.vl { font-family: 'DM Sans', system-ui, sans-serif; color: #212121; -webkit-font-smoothing: antialiased; overflow-x: clip; }
+.vl h1, .vl h2, .vl h3, .vl .dsp { font-family: 'Plus Jakarta Sans', 'DM Sans', system-ui, sans-serif; margin: 0; text-wrap: balance; letter-spacing: -0.02em; }
+.vl p, .vl ol, .vl ul { margin: 0; }
+.vl .wrap { max-width: 1160px; margin: 0 auto; width: 100%; box-sizing: border-box; }
+.vl .sec { padding: clamp(56px, 7vw, 100px) clamp(20px, 4vw, 48px); box-sizing: border-box; }
+.vl .tx { font-size: 18px; line-height: 1.7; }
+.vl .ts { font-size: 17px; line-height: 1.65; }
+.vl .mut { color: #4a4542; }
+.vl .h2 { font-size: clamp(28px, 3.4vw, 44px); line-height: 1.12; font-weight: 800; }
+.vl .h3 { font-size: clamp(22px, 2.4vw, 30px); line-height: 1.25; font-weight: 700; }
+.vl .big { font-family: 'Plus Jakarta Sans', 'DM Sans', system-ui, sans-serif; font-size: clamp(22px, 2.4vw, 30px); line-height: 1.25; font-weight: 800; letter-spacing: -0.02em; color: #b71c1c; text-wrap: balance; }
+.vl .lbl { font-family: 'Plus Jakarta Sans', 'DM Sans', system-ui, sans-serif; font-size: 13px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+.vl .g2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: clamp(24px, 4vw, 56px); align-items: start; }
+.vl .g2c { align-items: center; }
+.vl .g3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 22px; }
+.vl .stack { display: flex; flex-direction: column; gap: 18px; }
+.vl .row { display: flex; gap: 16px; align-items: flex-start; }
+.vl .card { background: #ffffff; border-radius: 22px; padding: clamp(24px, 3vw, 36px); box-shadow: 0 1px 0 rgba(33,33,33,0.04), 0 18px 40px -24px rgba(83,3,11,0.35); box-sizing: border-box; }
+.vl .card.flat { box-shadow: none; }
+.vl .card.dk { background: #212121; color: #ffffff; box-shadow: none; }
+.vl .card.wn { background: #53030b; color: #ffffff; box-shadow: none; }
+.vl .card.rd { background: #b71c1c; color: #ffffff; box-shadow: none; }
+.vl .card.gl { background: rgba(255,255,255,0.07); color: #ffffff; box-shadow: none; border: 1px solid rgba(255,255,255,0.12); }
+.vl .chip { flex: none; width: 48px; height: 48px; border-radius: 14px; background: #b71c1c; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; position: relative; }
+.vl .chip.soft { background: rgba(183,28,28,0.1); color: #b71c1c; }
+.vl .chip.lt { background: rgba(255,255,255,0.14); color: #ffffff; }
+.vl .chip.wh { background: #ffffff; color: #b71c1c; }
+.vl .chip.rn { border-radius: 50%; }
+.vl .chip.sm { width: 36px; height: 36px; border-radius: 12px; }
+.vl .ic { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.vl .chip.sm .ic { width: 19px; height: 19px; }
+.vl .eyebrow { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 999px; background: rgba(183,28,28,0.1); color: #b71c1c; font-family: 'Plus Jakarta Sans', 'DM Sans', system-ui, sans-serif; font-size: 12px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; align-self: flex-start; }
+.vl .eyebrow.lt { background: rgba(255,255,255,0.12); color: #ffffff; }
+.vl .tl { position: relative; display: flex; flex-direction: column; gap: 16px; }
+.vl .tl::before { content: ""; position: absolute; left: 23px; top: 24px; bottom: 24px; width: 2px; background: rgba(183,28,28,0.25); }
+.vl .tl.lt::before { background: rgba(255,255,255,0.22); }
+.vl .frame { position: relative; width: calc(100% - 20px); max-width: 430px; margin: 0 20px 20px 0; }
+.vl .frame::before { content: ""; position: absolute; inset: 20px -20px -20px 20px; border: 2px solid #b71c1c; border-radius: 220px 220px 28px 28px; }
+.vl .frame img { position: relative; display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 220px 220px 28px 28px; background: #ece3da; }
+.vl .frame.lt::before { border-color: #ff5a52; }
+.vl .illu { display: block; width: 100%; height: auto; border-radius: 28px; }
+.vl .sec { padding-top: clamp(56px, 7vw, 100px) !important; padding-bottom: clamp(56px, 7vw, 100px) !important; }
+.vl .dots { background-image: radial-gradient(rgba(255,255,255,0.1) 1.5px, transparent 1.5px); background-size: 22px 22px; }
+.vl .hero1 { background-color: #212121; background-image: radial-gradient(rgba(255,255,255,0.1) 1.5px, transparent 1.5px), linear-gradient(90deg, rgba(10,10,10,0.5) 0%, rgba(10,10,10,0.28) 40%, rgba(10,10,10,0) 65%), url(images/hero-bg.jpg); background-size: 22px 22px, auto, cover; background-position: 0 0, 0 0, 80% center; background-repeat: repeat, no-repeat, no-repeat; }
+.vl .hero1-text { width: min(600px, 54%); }
+@media (max-width: 900px) {
+  .vl .hero1 { background-image: radial-gradient(rgba(255,255,255,0.1) 1.5px, transparent 1.5px), linear-gradient(rgba(33,33,33,0.8), rgba(33,33,33,0.8)), url(images/hero-bg.jpg); background-size: 22px 22px, auto, cover; background-position: 0 0, 0 0, 78% center; background-repeat: repeat, no-repeat, no-repeat; }
+  .vl .hero1-text { width: 100%; }
+}
+.vl .qbar { border-left: 5px solid #b71c1c; padding: 4px 0 4px 22px; }
+.vl .qbar.lt { border-left-color: #ff5a52; }
+.vl .pills { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; counter-reset: l; }
+.vl .pills li { counter-increment: l; display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px 6px 6px; border-radius: 999px; background: #f5f0ea; font-size: 15px; line-height: 1.3; font-weight: 500; color: #212121; }
+.vl .pills li::before { content: counter(l); flex: none; width: 24px; height: 24px; border-radius: 50%; background: #b71c1c; color: #ffffff; font-size: 12px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; }
+.vl .pills.lt li { background: rgba(255,255,255,0.1); color: #ffffff; }
+.vl .pills.lt li::before { background: #ff5a52; color: #212121; }
+.vl .btn { border: 0; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; text-align: center; min-height: 56px; padding: 14px 32px; border-radius: 999px; font-family: 'Plus Jakarta Sans', 'DM Sans', system-ui, sans-serif; font-weight: 800; font-size: 15px; letter-spacing: 0.04em; text-transform: uppercase; text-decoration: none; line-height: 1.3; box-sizing: border-box; transition: background-color 0.2s ease, color 0.2s ease; }
+.vl .btn-red { background: #b71c1c; color: #ffffff; box-shadow: 0 12px 28px -12px rgba(183,28,28,0.7); }
+.vl .btn-red:hover { background: #53030b; }
+.vl .btn-light { background: #ffffff; color: #53030b; }
+.vl .btn-light:hover { background: #f8f4f0; }
+.vl .btn:focus-visible, .vl summary:focus-visible { outline: 3px solid #b71c1c; outline-offset: 3px; }
+.vl .btn-light:focus-visible { outline-color: #ffffff; }
+.vl details { background: #ffffff; border-radius: 18px; box-shadow: 0 1px 0 rgba(33,33,33,0.04), 0 14px 30px -24px rgba(83,3,11,0.4); }
+.vl summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 20px 24px; min-height: 44px; font-family: 'Plus Jakarta Sans', 'DM Sans', system-ui, sans-serif; font-weight: 700; font-size: 19px; line-height: 1.35; letter-spacing: -0.01em; }
+.vl summary::-webkit-details-marker { display: none; }
+.vl summary::after { content: "+"; flex: none; width: 36px; height: 36px; border-radius: 50%; border: 2px solid #b71c1c; color: #b71c1c; display: inline-flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 500; line-height: 1; padding-bottom: 2px; box-sizing: border-box; }
+.vl details[open] summary::after { content: "–"; background: #b71c1c; color: #ffffff; }
+.vl .ans { padding: 0 24px 26px; max-width: 64ch; }
+.vl .fld { display: flex; flex-direction: column; gap: 6px; }
+.vl .fld label { font-size: 15px; font-weight: 700; color: #212121; }
+.vl .fld input { width: 100%; box-sizing: border-box; min-height: 52px; padding: 0 16px; border: 1.5px solid #cfc6bd; border-radius: 10px; font-family: 'DM Sans', system-ui, sans-serif; font-size: 17px; color: #212121; background: #ffffff; }
+.vl .fld input::placeholder { color: #766d66; }
+.vl .fld input:focus { outline: 3px solid rgba(183, 28, 28, 0.3); border-color: #b71c1c; }
+.vl .err { font-size: 14px; line-height: 1.4; color: #b71c1c; font-weight: 500; }
+@media (prefers-reduced-motion: reduce) { .vl .btn { transition: none; } }
+</style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '261001633088796');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=261001633088796&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body>
+
+<div class="vl" style="width: 100%; background: #f8f4f0">
+
+<svg width="0" height="0" style="position: absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"></path></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM6 11a6 6 0 0 0 12 0M12 17v4"></path></symbol>
+  <symbol id="i-wave" viewBox="0 0 24 24"><path d="M4 10v4M8 6v12M12 3v18M16 7v10M20 10v4"></path></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 5v14M15 5v14"></path></symbol>
+  <symbol id="i-mega" viewBox="0 0 24 24"><path d="M4 10v4h4l5 4V6L8 10H4zM16.5 9a4 4 0 0 1 0 6"></path></symbol>
+  <symbol id="i-gauge" viewBox="0 0 24 24"><path d="M4 17a8 8 0 1 1 16 0M12 17l4-5"></path></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"></path></symbol>
+  <symbol id="i-xc" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM9 9l6 6M15 9l-6 6"></path></symbol>
+  <symbol id="i-person" viewBox="0 0 24 24"><path d="M12 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM6 21v-3a6 6 0 0 1 12 0v3"></path></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"></path></symbol>
+  <symbol id="i-ear" viewBox="0 0 24 24"><path d="M8 9a4 4 0 0 1 8 0c0 3-3 3-3 6a2.5 2.5 0 0 1-5 0"></path></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"></path></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"></path></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><path d="M9 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM3 20v-1a5 5 0 0 1 10 0v1M17 11a2.5 2.5 0 1 0 0-5M16 14a4.5 4.5 0 0 1 5 4.5V20"></path></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><path d="M4 7h16v13H4zM4 11h16M8 4v4M16 4v4"></path></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"></path></symbol>
+  <symbol id="i-gift" viewBox="0 0 24 24"><path d="M4 10h16v10H4zM3 7h18v3H3zM12 7v13M12 7c-2-4-6-3-5 0M12 7c2-4 6-3 5 0"></path></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path></symbol>
+  <symbol id="i-brief" viewBox="0 0 24 24"><path d="M4 8h16v11H4zM9 8V5h6v3M4 13h16"></path></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></symbol>
+  <symbol id="i-cap" viewBox="0 0 24 24"><path d="M3 9l9-4 9 4-9 4zM7 11v5c3 2 7 2 10 0v-5"></path></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 7v5l3 2"></path></symbol>
+  <symbol id="i-rec" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"></path></symbol>
+</svg>
+
+<!-- ================= TOPO ================= -->
+<header style="background: #212121; padding: 14px clamp(20px, 4vw, 48px); box-sizing: border-box; position: sticky; top: 0; z-index: 50">
+  <div class="wrap" style="display: flex; align-items: center; justify-content: space-between; gap: 16px">
+    <img src="images/logo-claro.png" alt="Curso Voz Líder" style="height: 48px; width: auto; display: block">
+    <button type="button" class="btn btn-red" onclick="openModal()" style="min-height: 44px; padding: 10px 22px; font-size: 13px">Quero minha vaga</button>
+  </div>
+</header>
+
+<!-- ================= DOBRA 01 ================= -->
+<section class="hero1" style="color: #ffffff">
+  <div class="sec">
+    <div class="wrap">
+      <div class="hero1-text" style="display: flex; flex-direction: column; align-items: flex-start; gap: 24px">
+        <span class="eyebrow lt"><svg class="ic" style="width: 16px; height: 16px"><use href="#i-mic"></use></svg>Treinamento prático com Gabriella Parra</span>
+        <h1 style="font-size: clamp(34px, 4.4vw, 58px); line-height: 1.07; font-weight: 800; color: #ffffff">Transforme sua comunicação e transmita mais segurança, presença e autoridade</h1>
+        <p class="tx" style="font-size: 20px; color: rgba(255,255,255,0.94)">Aprenda a se comunicar com mais clareza, firmeza e presença, para que a forma como você fala esteja à altura do conhecimento, da experiência e da liderança que você já tem.</p>
+        <p class="tx" style="color: rgba(255,255,255,0.84)">Um treinamento prático com Gabriella Parra para quem deseja se posicionar com segurança, ser compreendido e desenvolver uma comunicação que transmita confiança, sem precisar falar mais alto ou deixar de ser quem é.</p>
+        <button type="button" class="btn btn-red" onclick="openModal()">Quero desenvolver minha Voz Líder</button>
+        <div class="card gl" style="display: flex; gap: 16px; align-items: center; padding: 18px 22px; border-radius: 18px">
+          <span class="chip lt"><svg class="ic"><use href="#i-play"></use></svg></span>
+          <p style="font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.9)">33 aulas organizadas em uma jornada de desenvolvimento vocal e corporal, com exercícios práticos e acesso ao grupo de WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 02 ================= -->
+<section class="sec" style="background: #f8f4f0; padding-top: clamp(24px, 3vw, 40px)">
+  <div class="wrap" style="display: flex; flex-direction: column; gap: clamp(40px, 5vw, 64px)">
+    <div class="g2">
+      <div class="stack" style="gap: 28px">
+        <h2 class="h2">Você já saiu de uma conversa pensando que poderia ter se comunicado melhor?</h2>
+        <svg class="illu" viewBox="0 0 400 500" role="img" aria-label="Balão de fala com ondas de voz desencontradas e, abaixo, um balão de pensamento com reticências" style="max-width: 400px">
+          <rect width="400" height="500" fill="#ece3da"></rect>
+          <path d="M68 70H312A28 28 0 0 1 340 98V222A28 28 0 0 1 312 250H150L96 300V250H68A28 28 0 0 1 40 222V98A28 28 0 0 1 68 70Z" fill="#b71c1c"></path>
+          <path d="M76 147.0V173.0 M90 123.0V197.0 M104 141.0V179.0 M118 108.0V212.0 M132 134.0V186.0 M146 97.0V223.0 M160 145.0V175.0 M174 114.0V206.0 M188 102.0V218.0 M202 138.0V182.0 M216 118.0V202.0 M230 95.0V225.0 M244 143.0V177.0 M258 111.0V209.0 M272 131.0V189.0 M286 106.0V214.0 M300 146.0V174.0" stroke="#ffffff" stroke-width="7" stroke-linecap="round" fill="none"></path>
+          <circle cx="200" cy="326" r="7" fill="#53030b"></circle>
+          <circle cx="222" cy="350" r="11" fill="#53030b"></circle>
+          <g fill="#53030b" stroke="#53030b" stroke-width="6">
+            <circle cx="248" cy="410" r="32"></circle><circle cx="290" cy="388" r="42"></circle><circle cx="338" cy="412" r="32"></circle><circle cx="292" cy="436" r="32"></circle>
+          </g>
+          <g fill="#ffffff">
+            <circle cx="248" cy="410" r="32"></circle><circle cx="290" cy="388" r="42"></circle><circle cx="338" cy="412" r="32"></circle><circle cx="292" cy="436" r="32"></circle>
+          </g>
+          <g fill="#b71c1c"><circle cx="262" cy="414" r="6"></circle><circle cx="292" cy="414" r="6"></circle><circle cx="322" cy="414" r="6"></circle></g>
+        </svg>
+      </div>
+      <div class="tl">
+        <div class="row">
+          <span class="chip rn"><svg class="ic"><use href="#i-users"></use></svg></span>
+          <div class="card" style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+            <p class="dsp" style="font-size: 20px; line-height: 1.3; font-weight: 800; color: #b71c1c">Talvez tenha acontecido durante uma reunião importante.</p>
+            <p class="ts mut">Você tinha uma boa ideia, conhecia o assunto, sabia exatamente o que precisava defender. Mas, quando chegou sua vez de falar, as palavras saíram depressa demais. Você explicou mais do que precisava, perdeu o ritmo ou terminou sem transmitir toda a segurança que gostaria.</p>
+          </div>
+        </div>
+        <div class="row">
+          <span class="chip rn"><svg class="ic"><use href="#i-chat"></use></svg></span>
+          <div class="card" style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+            <p class="dsp" style="font-size: 20px; line-height: 1.3; font-weight: 800; color: #b71c1c">Ou, quem sabe, foi em uma conversa difícil.</p>
+            <p class="ts mut">Você precisava estabelecer um limite, dar uma orientação ou discordar de alguém. Tentou encontrar as palavras certas, mas percebeu sua voz ficando tensa, seu tom mudando ou a conversa tomando um rumo diferente do que havia imaginado.</p>
+          </div>
+        </div>
+        <div class="row">
+          <span class="chip rn"><svg class="ic"><use href="#i-ear"></use></svg></span>
+          <div class="card" style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+            <p class="ts mut" style="color: #212121">E existe também aquela situação em que você fala, explica, repete e, mesmo assim, sente que as pessoas não compreendem a importância do que está dizendo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card wn" style="padding: clamp(28px, 4.5vw, 60px); border-radius: 28px">
+      <div class="g2 g2c">
+        <div class="stack" style="gap: 20px">
+          <p class="tx" style="color: rgba(255,255,255,0.88)">Se alguma dessas situações parece familiar, quero que você considere uma coisa:</p>
+          <p class="dsp" style="font-size: clamp(26px, 3.2vw, 40px); line-height: 1.15; font-weight: 800; color: #ffffff">Nem sempre o que falta é conhecimento, preparo ou capacidade de liderança.</p>
+        </div>
+        <div class="stack" style="gap: 14px">
+          <p class="tx" style="color: rgba(255,255,255,0.9)">Às vezes, o que precisa ser desenvolvido é a maneira como tudo isso chega até as outras pessoas.</p>
+          <p class="tx" style="color: #ff8a80; font-weight: 700">Porque sua voz comunica muito mais do que palavras.</p>
+          <p class="tx" style="color: rgba(255,255,255,0.9)">Ela pode transmitir segurança ou hesitação. Proximidade ou distanciamento. Firmeza ou agressividade.</p>
+          <p class="tx" style="color: rgba(255,255,255,0.9)">E nem sempre temos consciência dessas diferenças enquanto estamos falando.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 03 ================= -->
+<section class="sec" style="background: #f5f5f5">
+  <div class="wrap" style="display: flex; flex-direction: column; gap: clamp(32px, 4vw, 48px)">
+    <div class="g2 g2c">
+      <h2 class="h2" style="max-width: 22ch">As pessoas não escutam apenas o que você diz. Elas também percebem como você diz.</h2>
+      <p class="tx mut">Pense em duas pessoas apresentando exatamente a mesma ideia.</p>
+    </div>
+    <div class="g2">
+      <div class="card flat" style="background: #e6e1dc; border-radius: 26px; display: flex; flex-direction: column; gap: 22px">
+        <div style="background: #ffffff; border-radius: 18px; padding: 18px 22px">
+          <svg viewBox="0 0 300 64" aria-hidden="true" style="display: block; width: 100%; height: auto"><path d="M10 25.0V39.0 M24 12.0V52.0 M38 21.0V43.0 M52 6.0V58.0 M66 23.0V41.0 M80 3.0V61.0 M94 19.0V45.0 M108 10.0V54.0 M122 26.0V38.0 M136 4.0V60.0 M150 17.0V47.0 M164 8.0V56.0 M178 24.0V40.0 M192 2.0V62.0 M206 20.0V44.0 M220 7.0V57.0 M234 22.0V42.0 M248 11.0V53.0 M262 25.0V39.0 M276 5.0V59.0 M290 18.0V46.0" stroke="#8a817a" stroke-width="6" stroke-linecap="round" fill="none"></path></svg>
+        </div>
+        <p style="font-size: 20px; line-height: 1.6; color: #4a4542">A primeira fala rapidamente, quase não faz pausas, perde o fôlego ao explicar e termina suas frases como se estivesse pedindo aprovação.</p>
+      </div>
+      <div class="card wn" style="border-radius: 26px; display: flex; flex-direction: column; gap: 22px">
+        <div style="background: rgba(255,255,255,0.08); border-radius: 18px; padding: 18px 22px">
+          <svg viewBox="0 0 300 64" aria-hidden="true" style="display: block; width: 100%; height: auto"><path d="M10 27.0V37.0 M24 23.0V41.0 M38 18.0V46.0 M52 13.0V51.0 M66 9.0V55.0 M80 13.0V51.0 M94 18.0V46.0 M108 23.0V41.0 M122 27.0V37.0 M136 30.0V34.0 M150 30.0V34.0 M164 27.0V37.0 M178 22.0V42.0 M192 16.0V48.0 M206 10.0V54.0 M220 6.0V58.0 M234 10.0V54.0 M248 16.0V48.0 M262 22.0V42.0 M276 27.0V37.0 M290 29.0V35.0" stroke="#ff8a80" stroke-width="6" stroke-linecap="round" fill="none"></path></svg>
+        </div>
+        <p style="font-size: 20px; line-height: 1.6; color: #ffffff">A segunda organiza seu pensamento, utiliza um ritmo confortável, destaca as informações importantes e consegue sustentar sua mensagem com tranquilidade.</p>
+      </div>
+    </div>
+    <div class="g2">
+      <div class="stack" style="gap: 14px">
+        <p class="tx">O conteúdo pode ser igualmente bom.</p>
+        <p class="tx">Mas a percepção de quem está ouvindo pode ser completamente diferente.</p>
+        <p class="tx">Isso acontece porque a comunicação não depende apenas da escolha das palavras.</p>
+      </div>
+      <div class="card row" style="gap: 18px">
+        <span class="chip"><svg class="ic"><use href="#i-wave"></use></svg></span>
+        <div class="stack" style="gap: 14px">
+          <p class="tx">O tom da sua voz, a velocidade da fala, as pausas, a postura, os gestos e até a maneira como você escuta participam da mensagem.</p>
+          <p class="tx mut">E quando esses elementos não estão alinhados, você pode acabar transmitindo uma impressão diferente daquela que gostaria.</p>
+        </div>
+      </div>
+    </div>
+    <div class="g2 g2c" style="border-top: 1px solid #d9d2cb; padding-top: clamp(28px, 3vw, 40px)">
+      <p class="big" style="font-size: clamp(24px, 2.8vw, 36px); line-height: 1.2">O mais interessante é que muitos desses recursos podem ser aprendidos, observados e desenvolvidos.</p>
+      <div class="qbar stack" style="gap: 10px">
+        <p class="tx" style="font-weight: 700">Você não precisa nascer com uma voz de liderança.</p>
+        <p class="tx">Precisa aprender a conhecer e utilizar melhor a voz que já tem.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 04 ================= -->
+<section class="dots" style="background-color: #212121; color: #ffffff">
+  <div class="sec" style="padding-top: clamp(24px, 3vw, 40px); padding-bottom: clamp(32px, 4vw, 56px)">
+    <div class="wrap" style="display: flex; flex-direction: column; gap: clamp(36px, 5vw, 64px)">
+      <h2 class="h2" style="color: #ffffff; max-width: 22ch; font-size: clamp(30px, 3.8vw, 50px)">Você não precisa ter a voz mais forte da sala para ser uma pessoa ouvida.</h2>
+      <div class="g2 g2c">
+        <div class="frame lt" style="justify-self: center"><img src="images/foto-01.jpg" alt="Gabriella Parra de braços cruzados, com o cabelo iluminado por trás"></div>
+        <div class="stack" style="gap: 20px">
+          <p class="tx" style="color: rgba(255,255,255,0.86)">Durante muito tempo, associamos a imagem de liderança a alguém que fala alto, tem uma voz grave, nunca hesita e parece estar sempre no controle.</p>
+          <div class="card gl" style="border-left: 5px solid #ff5a52; border-radius: 16px; padding: 18px 24px"><p class="dsp" style="font-size: clamp(22px, 2.6vw, 32px); line-height: 1.15; font-weight: 800; color: #ffffff">Mas autoridade não é volume.</p></div>
+          <div class="card gl" style="border-left: 5px solid #ff5a52; border-radius: 16px; padding: 18px 24px"><p class="dsp" style="font-size: clamp(22px, 2.6vw, 32px); line-height: 1.15; font-weight: 800; color: #ff5a52">Firmeza não é agressividade.</p></div>
+          <div class="card gl" style="border-left: 5px solid #ff5a52; border-radius: 16px; padding: 18px 24px"><p class="dsp" style="font-size: clamp(22px, 2.6vw, 32px); line-height: 1.15; font-weight: 800; color: #ffffff">E segurança não significa falar sem demonstrar emoções.</p></div>
+        </div>
+      </div>
+      <div class="g2">
+        <div class="stack" style="gap: 20px">
+          <p class="tx" style="color: #ffffff; font-weight: 700; font-size: 22px">Uma boa comunicação exige algo muito mais importante: consciência.</p>
+          <div class="stack" style="gap: 12px">
+            <div class="row" style="align-items: center"><span class="chip lt sm"><svg class="ic"><use href="#i-check"></use></svg></span><p class="tx" style="color: rgba(255,255,255,0.88)">Consciência para entender quando sua fala está acelerada.</p></div>
+            <div class="row" style="align-items: center"><span class="chip lt sm"><svg class="ic"><use href="#i-check"></use></svg></span><p class="tx" style="color: rgba(255,255,255,0.88)">Para perceber quando uma pausa pode valorizar sua mensagem.</p></div>
+            <div class="row" style="align-items: center"><span class="chip lt sm"><svg class="ic"><use href="#i-check"></use></svg></span><p class="tx" style="color: rgba(255,255,255,0.88)">Para ajustar o tom de acordo com a situação.</p></div>
+            <div class="row" style="align-items: center"><span class="chip lt sm"><svg class="ic"><use href="#i-check"></use></svg></span><p class="tx" style="color: rgba(255,255,255,0.88)">Para transmitir uma orientação sem soar autoritária.</p></div>
+            <div class="row" style="align-items: center"><span class="chip lt sm"><svg class="ic"><use href="#i-check"></use></svg></span><p class="tx" style="color: rgba(255,255,255,0.88)">Para conseguir ser firme e, ao mesmo tempo, respeitosa.</p></div>
+          </div>
+        </div>
+        <div class="stack" style="gap: 22px">
+          <p class="tx" style="color: rgba(255,255,255,0.86)">E, principalmente, para perceber que você não precisa copiar a maneira como outra pessoa fala para desenvolver sua própria presença.</p>
+          <div class="card rd" style="border-radius: 24px; padding: clamp(24px, 3vw, 36px)"><p class="dsp" style="font-size: clamp(22px, 2.4vw, 30px); line-height: 1.25; font-weight: 800; color: #ffffff">Sua voz não precisa se transformar na voz de outra pessoa. Ela precisa aprender a expressar melhor quem você é.</p></div>
+          <p class="tx" style="color: #ff8a80; font-weight: 700">Foi pensando nisso que nasceu o Voz Líder.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 05 ================= -->
+<section class="sec" style="background: #f8f4f0; padding-top: clamp(24px, 3vw, 40px)">
+  <div class="wrap" style="display: flex; flex-direction: column; gap: clamp(32px, 4vw, 52px)">
+    <div class="g2 g2c">
+      <svg class="illu" viewBox="0 0 400 500" role="img" aria-label="Microfone com ondas sonoras dos dois lados e uma seta subindo" style="max-width: 420px; justify-self: center">
+        <rect width="400" height="500" fill="#53030b"></rect>
+        <path d="M100 143.0V213.0 M72 118.0V238.0 M44 148.0V208.0 M300 143.0V213.0 M328 118.0V238.0 M356 148.0V208.0" stroke="#ff5a52" stroke-width="14" stroke-linecap="round" fill="none"></path>
+        <rect x="150" y="80" width="100" height="190" rx="50" fill="#f8f4f0"></rect>
+        <path d="M172 128H228M172 154H228M172 180H228" stroke="#53030b" stroke-width="8" stroke-linecap="round" fill="none"></path>
+        <path d="M115 205A85 85 0 0 0 285 205M200 290V345M150 352H250" stroke="#f8f4f0" stroke-width="14" stroke-linecap="round" fill="none"></path>
+        <path d="M96 440C190 440 262 408 322 340" stroke="#ff5a52" stroke-width="10" stroke-linecap="round" fill="none"></path>
+        <polygon points="342,314 300,322 336,356" fill="#ff5a52"></polygon>
+      </svg>
+      <div class="stack" style="gap: 20px; align-items: flex-start">
+        <h2 style="font-size: clamp(44px, 6.4vw, 88px); line-height: 1; font-weight: 800; color: #b71c1c; letter-spacing: -0.03em">VOZ LÍDER</h2>
+        <h3 class="h3" style="max-width: 26ch">Comunicação, presença e autoridade para liderar com clareza e autenticidade.</h3>
+        <p class="tx">O Voz Líder é um treinamento desenvolvido por Gabriella Parra, fonoaudióloga especialista em Voz Profissional, para ajudar profissionais a reconhecer, compreender e aprimorar a maneira como se comunicam.</p>
+        <p class="tx mut">A proposta é simples: fazer com que você deixe de usar sua voz apenas de maneira automática e passe a compreender os recursos que tem à disposição.</p>
+      </div>
+    </div>
+    <div class="g3">
+      <div class="card stack" style="gap: 16px">
+        <span class="chip"><svg class="ic"><use href="#i-mic"></use></svg></span>
+        <p class="ts">Ao longo do curso, você vai aprender como sua voz funciona, o que ela comunica e de que maneira pode utilizar diferentes técnicas para falar com mais clareza, expressividade e firmeza.</p>
+      </div>
+      <div class="card stack" style="gap: 16px">
+        <span class="chip"><svg class="ic"><use href="#i-gauge"></use></svg></span>
+        <p class="ts">Vai trabalhar ritmo, pausas, projeção vocal, entonação, postura e linguagem corporal.</p>
+        <p class="ts">Também vai compreender como a escuta, as emoções e as relações interpessoais influenciam a maneira como você se posiciona.</p>
+      </div>
+      <div class="card stack" style="gap: 16px">
+        <span class="chip"><svg class="ic"><use href="#i-target"></use></svg></span>
+        <p class="ts">Tudo isso por meio de uma jornada que combina explicações, exercícios e oportunidades de observar sua própria evolução.</p>
+      </div>
+    </div>
+    <div class="g2 g2c" style="background: #ece3da; border-radius: 28px; padding: clamp(24px, 4vw, 48px)">
+      <p class="dsp" style="font-size: clamp(20px, 2.3vw, 28px); line-height: 1.3; font-weight: 800; color: #53030b">O objetivo não é ensinar você a representar uma liderança. É ajudar você a comunicar melhor a liderança que deseja exercer.</p>
+      <div style="justify-self: start"><button type="button" class="btn btn-red" onclick="openModal()">Quero conhecer o Voz Líder</button></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 06 ================= -->
+<section class="sec" style="background: #f5f5f5">
+  <div class="wrap" style="display: flex; flex-direction: column; gap: clamp(32px, 4vw, 52px)">
+    <div class="g2">
+      <div class="stack" style="gap: 20px">
+        <h2 class="h2" style="max-width: 24ch">O que muda quando você começa a ter mais consciência da sua comunicação?</h2>
+        <p class="tx mut">Esses são exemplos de situações nas quais os recursos trabalhados no Voz Líder poderão fazer diferença.</p>
+      </div>
+      <div class="card stack" style="gap: 0; padding: 12px clamp(20px, 3vw, 32px)">
+        <div class="row" style="padding: 18px 0; border-bottom: 1px solid #ece3da; align-items: center"><span class="chip soft sm"><svg class="ic"><use href="#i-users"></use></svg></span><p class="ts">Imagine entrar em uma reunião e conseguir apresentar sua ideia sem aquela sensação de precisar falar tudo de uma vez.</p></div>
+        <div class="row" style="padding: 18px 0; border-bottom: 1px solid #ece3da; align-items: center"><span class="chip soft sm"><svg class="ic"><use href="#i-pause"></use></svg></span><p class="ts">Conseguir fazer uma pausa sem sentir que precisa preencher cada segundo de silêncio.</p></div>
+        <div class="row" style="padding: 18px 0; border-bottom: 1px solid #ece3da; align-items: center"><span class="chip soft sm"><svg class="ic"><use href="#i-shield"></use></svg></span><p class="ts">Expressar uma opinião contrária sem aumentar o tom de voz.</p></div>
+        <div class="row" style="padding: 18px 0; border-bottom: 1px solid #ece3da; align-items: center"><span class="chip soft sm"><svg class="ic"><use href="#i-chat"></use></svg></span><p class="ts">Conduzir uma conversa importante sabendo como ajustar sua fala, escutar o outro e manter a firmeza necessária.</p></div>
+        <div class="row" style="padding: 18px 0; align-items: center"><span class="chip soft sm"><svg class="ic"><use href="#i-person"></use></svg></span><p class="ts">Ou simplesmente perceber que sua voz, seus gestos e sua postura estão trabalhando a favor da mensagem que você quer transmitir.</p></div>
+      </div>
+    </div>
+
+    <h3 class="h3" style="max-width: 30ch; margin-top: 12px">Ao longo do treinamento, você vai desenvolver habilidades para:</h3>
+    <div class="g3">
+      <div class="card stack" style="gap: 12px"><span class="chip"><svg class="ic"><use href="#i-chat"></use></svg></span><p class="dsp" style="font-size: 21px; line-height: 1.25; font-weight: 800">Falar com mais clareza</p><p class="ts mut">Articular melhor as palavras, organizar a fala e facilitar a compreensão das suas ideias.</p></div>
+      <div class="card stack" style="gap: 12px"><span class="chip"><svg class="ic"><use href="#i-mega"></use></svg></span><p class="dsp" style="font-size: 21px; line-height: 1.25; font-weight: 800">Projetar sua voz sem precisar gritar</p><p class="ts mut">Aprender a utilizar a intensidade vocal de maneira mais eficiente e adequada ao ambiente.</p></div>
+      <div class="card stack" style="gap: 12px"><span class="chip"><svg class="ic"><use href="#i-gauge"></use></svg></span><p class="dsp" style="font-size: 21px; line-height: 1.25; font-weight: 800">Controlar o ritmo da comunicação</p><p class="ts mut">Reconhecer quando está falando rápido demais e aprender a ajustar a velocidade para transmitir mais clareza.</p></div>
+      <div class="card stack" style="gap: 12px"><span class="chip"><svg class="ic"><use href="#i-pause"></use></svg></span><p class="dsp" style="font-size: 21px; line-height: 1.25; font-weight: 800">Utilizar pausas com intenção</p><p class="ts mut">Descobrir como o silêncio pode ajudar a organizar o pensamento, criar expectativa e valorizar uma informação.</p></div>
+      <div class="card stack" style="gap: 12px"><span class="chip"><svg class="ic"><use href="#i-spark"></use></svg></span><p class="dsp" style="font-size: 21px; line-height: 1.25; font-weight: 800">Dar destaque ao que realmente importa</p><p class="ts mut">Trabalhar ênfases, entonações e variações vocais para que sua mensagem não soe sempre da mesma maneira.</p></div>
+      <div class="card stack" style="gap: 12px"><span class="chip"><svg class="ic"><use href="#i-xc"></use></svg></span><p class="dsp" style="font-size: 21px; line-height: 1.25; font-weight: 800">Reduzir hábitos que enfraquecem sua fala</p><p class="ts mut">Identificar vícios de linguagem e repetições desnecessárias que podem prejudicar a fluidez da comunicação.</p></div>
+      <div class="card stack" style="gap: 12px"><span class="chip"><svg class="ic"><use href="#i-person"></use></svg></span><p class="dsp" style="font-size: 21px; line-height: 1.25; font-weight: 800">Alinhar sua voz ao seu corpo</p><p class="ts mut">Compreender como postura, gestos e expressões faciais influenciam a percepção da sua mensagem.</p></div>
+      <div class="card stack" style="gap: 12px"><span class="chip"><svg class="ic"><use href="#i-shield"></use></svg></span><p class="dsp" style="font-size: 21px; line-height: 1.25; font-weight: 800">Se posicionar com firmeza, sem agressividade</p><p class="ts mut">Desenvolver recursos para estabelecer limites, comunicar decisões e conduzir situações delicadas.</p></div>
+      <div class="card stack" style="gap: 12px"><span class="chip"><svg class="ic"><use href="#i-ear"></use></svg></span><p class="dsp" style="font-size: 21px; line-height: 1.25; font-weight: 800">Ouvir com mais atenção e construir conexões</p><p class="ts mut">Aprimorar sua capacidade de escuta e aprender a adaptar sua comunicação a diferentes interlocutores.</p></div>
+      <div class="card stack" style="gap: 12px"><span class="chip"><svg class="ic"><use href="#i-heart"></use></svg></span><p class="dsp" style="font-size: 21px; line-height: 1.25; font-weight: 800">Lidar melhor com a influência das emoções</p><p class="ts mut">Reconhecer como momentos de tensão, insegurança ou pressão afetam sua voz e desenvolver estratégias para se comunicar com maior estabilidade.</p></div>
+      <div class="card stack" style="gap: 12px"><span class="chip"><svg class="ic"><use href="#i-star"></use></svg></span><p class="dsp" style="font-size: 21px; line-height: 1.25; font-weight: 800">Construir uma identidade vocal autêntica</p><p class="ts mut">Reconhecer suas características, valorizar seus pontos fortes e ampliar as possibilidades de expressão da sua própria voz.</p></div>
+    </div>
+
+    <div class="card wn" style="border-radius: 28px; padding: clamp(28px, 4.5vw, 60px)">
+      <div class="g2 g2c">
+        <h3 style="font-size: clamp(28px, 3.4vw, 44px); line-height: 1.1; font-weight: 800; color: #ffffff">E o mais importante:</h3>
+        <div class="stack" style="gap: 14px">
+          <p class="tx" style="color: #ff8a80; font-weight: 700">Você não estará aprendendo técnicas para utilizar apenas dentro do curso.</p>
+          <p class="tx" style="color: rgba(255,255,255,0.92)">Estará desenvolvendo recursos que poderá levar para reuniões, apresentações, conversas com sua equipe, negociações e diferentes situações da sua vida profissional.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 07 ================= -->
+<section class="dots" style="background-color: #53030b; color: #ffffff">
+  <div class="sec" style="padding-top: clamp(24px, 3vw, 40px); padding-bottom: clamp(32px, 4vw, 56px)">
+    <div class="wrap" style="display: flex; flex-direction: column; gap: clamp(32px, 4vw, 52px)">
+      <div class="g2 g2c">
+        <div class="stack" style="gap: 22px">
+          <h2 class="h2" style="color: #ffffff; max-width: 24ch">Se a sua comunicação faz parte da sua profissão, aprender a utilizá-la melhor pode fazer uma grande diferença.</h2>
+          <p class="tx" style="color: #ff8a80; font-weight: 700">O Voz Líder é para você que:</p>
+        </div>
+        <svg class="illu" viewBox="0 0 400 500" role="img" aria-label="Uma pessoa falando com segurança em uma reunião, com um balão de fala de onda estável, diante de uma plateia" style="max-width: 360px; justify-self: center">
+          <rect width="400" height="500" fill="#b71c1c"></rect>
+          <rect x="70" y="50" width="260" height="100" rx="26" fill="#ffffff"></rect>
+          <path d="M178 148H214L198 182Z" fill="#ffffff"></path>
+          <path d="M100 92.0V108.0 M116 86.0V114.0 M132 80.0V120.0 M148 74.0V126.0 M164 70.0V130.0 M180 74.0V126.0 M196 80.0V120.0 M212 74.0V126.0 M228 70.0V130.0 M244 74.0V126.0 M260 80.0V120.0 M276 86.0V114.0 M292 92.0V108.0" stroke="#b71c1c" stroke-width="8" stroke-linecap="round" fill="none"></path>
+          <circle cx="198" cy="226" r="32" fill="#ffffff"></circle>
+          <path d="M136 372V334A62 62 0 0 1 260 334V372Z" fill="#ffffff"></path>
+          <g fill="#ffffff" fill-opacity="0.28">
+            <circle cx="40" cy="418" r="21"></circle><path d="M2 500V472A38 34 0 0 1 78 472V500Z"></path>
+            <circle cx="120" cy="418" r="21"></circle><path d="M82 500V472A38 34 0 0 1 158 472V500Z"></path>
+            <circle cx="200" cy="418" r="21"></circle><path d="M162 500V472A38 34 0 0 1 238 472V500Z"></path>
+            <circle cx="280" cy="418" r="21"></circle><path d="M242 500V472A38 34 0 0 1 318 472V500Z"></path>
+            <circle cx="360" cy="418" r="21"></circle><path d="M322 500V472A38 34 0 0 1 398 472V500Z"></path>
+          </g>
+        </svg>
+      </div>
+      <div class="g3" style="grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr))">
+        <div class="card gl row" style="align-items: center"><span class="chip wh sm rn"><svg class="ic"><use href="#i-check"></use></svg></span><p style="font-size: 18px; line-height: 1.55">Já ocupa uma posição de liderança e deseja transmitir mais clareza, segurança e firmeza ao conduzir pessoas.</p></div>
+        <div class="card gl row" style="align-items: center"><span class="chip wh sm rn"><svg class="ic"><use href="#i-check"></use></svg></span><p style="font-size: 18px; line-height: 1.55">Possui experiência e conhecimento, mas sente que nem sempre consegue demonstrar isso ao falar.</p></div>
+        <div class="card gl row" style="align-items: center"><span class="chip wh sm rn"><svg class="ic"><use href="#i-check"></use></svg></span><p style="font-size: 18px; line-height: 1.55">Precisa participar de reuniões, apresentar projetos ou defender ideias diante de outras pessoas.</p></div>
+        <div class="card gl row" style="align-items: center"><span class="chip wh sm rn"><svg class="ic"><use href="#i-check"></use></svg></span><p style="font-size: 18px; line-height: 1.55">Está se preparando para assumir novas responsabilidades e deseja desenvolver uma presença profissional mais segura.</p></div>
+        <div class="card gl row" style="align-items: center"><span class="chip wh sm rn"><svg class="ic"><use href="#i-check"></use></svg></span><p style="font-size: 18px; line-height: 1.55">Tem dificuldade para estabelecer limites ou conduzir conversas delicadas sem se sentir desconfortável.</p></div>
+        <div class="card gl row" style="align-items: center"><span class="chip wh sm rn"><svg class="ic"><use href="#i-check"></use></svg></span><p style="font-size: 18px; line-height: 1.55">Percebe que fala rápido demais, utiliza muitos vícios de linguagem ou nem sempre consegue manter a atenção de quem escuta.</p></div>
+        <div class="card gl row" style="align-items: center"><span class="chip wh sm rn"><svg class="ic"><use href="#i-check"></use></svg></span><p style="font-size: 18px; line-height: 1.55">Deseja aprimorar sua comunicação sem adotar uma personalidade artificial.</p></div>
+      </div>
+      <div class="g2 g2c">
+        <div class="stack" style="gap: 14px">
+          <p class="tx" style="color: rgba(255,255,255,0.92)">Se você se reconheceu em alguma dessas situações, existe um caminho para começar a desenvolver essas habilidades.</p>
+          <p class="tx" style="color: rgba(255,255,255,0.92)">E ele começa com algo que poucas pessoas costumam fazer:</p>
+        </div>
+        <p class="dsp" style="font-size: clamp(30px, 4vw, 52px); line-height: 1.08; font-weight: 800; color: #ffffff">Prestar atenção na própria voz.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 08 ================= -->
+<section class="sec" style="background: #f8f4f0; padding-top: clamp(24px, 3vw, 40px)">
+  <div class="wrap" style="display: flex; flex-direction: column; gap: clamp(32px, 4vw, 52px)">
+    <div class="g2 g2c">
+      <svg class="illu" viewBox="0 0 400 500" role="img" aria-label="Gravação de voz com onda sonora, pausas marcadas e três medidores de ritmo, pausa e variação" style="max-width: 400px; justify-self: center">
+        <rect width="400" height="500" fill="#212121"></rect>
+        <circle cx="200" cy="100" r="44" fill="#b71c1c"></circle>
+        <circle cx="200" cy="100" r="16" fill="#ffffff"></circle>
+        <path d="M52 258.0V282.0 M64 248.0V292.0 M76 239.0V301.0 M88 230.0V310.0 M100 241.0V299.0 M112 235.0V305.0 M124 224.0V316.0 M136 246.0V294.0 M148 268.0V272.0 M160 268.0V272.0 M172 252.0V288.0 M184 240.0V300.0 M196 228.0V312.0" stroke="#ff5a52" stroke-width="6" stroke-linecap="round" fill="none"></path>
+        <path d="M208 220.0V320.0 M220 235.0V305.0 M232 248.0V292.0 M244 237.0V303.0 M256 226.0V314.0 M268 268.0V272.0 M280 268.0V272.0 M292 250.0V290.0 M304 234.0V306.0 M316 242.0V298.0 M328 228.0V312.0 M340 245.0V295.0 M352 256.0V284.0" stroke="#6b6b6b" stroke-width="6" stroke-linecap="round" fill="none"></path>
+        <path d="M200 196V344" stroke="#ffffff" stroke-width="3" stroke-linecap="round"></path>
+        <circle cx="200" cy="196" r="7" fill="#ffffff"></circle>
+        <path d="M142 352V362H166V352M262 352V362H286V352" stroke="#ff8a80" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+        <rect x="70" y="406" width="260" height="8" rx="4" fill="#3a3a3a"></rect><rect x="70" y="406" width="150" height="8" rx="4" fill="#b71c1c"></rect><circle cx="220" cy="410" r="11" fill="#ffffff"></circle>
+        <rect x="70" y="436" width="260" height="8" rx="4" fill="#3a3a3a"></rect><rect x="70" y="436" width="196" height="8" rx="4" fill="#b71c1c"></rect><circle cx="266" cy="440" r="11" fill="#ffffff"></circle>
+        <rect x="70" y="466" width="260" height="8" rx="4" fill="#3a3a3a"></rect><rect x="70" y="466" width="112" height="8" rx="4" fill="#b71c1c"></rect><circle cx="182" cy="470" r="11" fill="#ffffff"></circle>
+      </svg>
+      <div class="stack" style="gap: 18px">
+        <h2 class="h2">Antes de aprender a falar de outra maneira, você precisa descobrir como se comunica hoje.</h2>
+        <p class="tx">Existe uma razão para o Voz Líder começar com uma avaliação inicial.</p>
+        <p class="tx mut">Como desenvolver uma habilidade sem conhecer seu ponto de partida?</p>
+        <p class="tx">Logo no início, você será convidada a observar sua comunicação e realizar uma gravação curta.</p>
+        <p class="tx mut">A ideia é perceber características que normalmente passam despercebidas durante uma conversa.</p>
+      </div>
+    </div>
+    <div class="g3" style="grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr))">
+      <div class="card stack" style="gap: 14px"><span class="chip"><svg class="ic"><use href="#i-gauge"></use></svg></span><p class="dsp" style="font-size: 20px; line-height: 1.3; font-weight: 700">Como está seu ritmo?</p></div>
+      <div class="card stack" style="gap: 14px"><span class="chip"><svg class="ic"><use href="#i-pause"></use></svg></span><p class="dsp" style="font-size: 20px; line-height: 1.3; font-weight: 700">Você consegue fazer pausas?</p></div>
+      <div class="card stack" style="gap: 14px"><span class="chip"><svg class="ic"><use href="#i-wave"></use></svg></span><p class="dsp" style="font-size: 20px; line-height: 1.3; font-weight: 700">Sua voz apresenta variações?</p></div>
+      <div class="card stack" style="gap: 14px"><span class="chip"><svg class="ic"><use href="#i-person"></use></svg></span><p class="dsp" style="font-size: 20px; line-height: 1.3; font-weight: 700">Seu corpo acompanha o que você está dizendo?</p></div>
+      <div class="card stack" style="gap: 14px"><span class="chip"><svg class="ic"><use href="#i-target"></use></svg></span><p class="dsp" style="font-size: 20px; line-height: 1.3; font-weight: 700">Quais aspectos da sua comunicação você gostaria de desenvolver?</p></div>
+    </div>
+    <div class="g2">
+      <div class="stack" style="gap: 14px">
+        <p class="tx">A partir dessa percepção inicial, você vai avançar pelos módulos, conhecer novos recursos e praticar aquilo que aprendeu.</p>
+        <p class="tx mut">No encerramento, terá a oportunidade de realizar uma nova avaliação e comparar suas percepções.</p>
+      </div>
+      <div class="qbar stack" style="gap: 10px">
+        <p class="tx" style="font-weight: 700">Não se trata de buscar uma voz perfeita.</p>
+        <p class="big">Trata-se de reconhecer sua própria evolução e compreender como continuar desenvolvendo sua comunicação.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 09 ================= -->
+<section class="sec" style="background: #f5f5f5">
+  <div class="wrap" style="display: flex; flex-direction: column; gap: clamp(28px, 3.5vw, 44px)">
+    <div class="g2 g2c">
+      <h2 class="h2" style="max-width: 22ch">Uma jornada completa para desenvolver sua voz, sua comunicação e sua presença.</h2>
+      <div class="stack" style="gap: 14px">
+        <p class="tx">O Voz Líder reúne 33 aulas, distribuídas entre uma etapa introdutória, cinco módulos principais e uma etapa final de avaliação.</p>
+        <p class="tx mut">Cada parte da jornada trabalha habilidades que se complementam, para que você consiga construir uma comunicação mais consciente e aplicá-la no seu cotidiano.</p>
+      </div>
+    </div>
+
+    <div class="card dk" style="border-radius: 26px; padding: clamp(28px, 4vw, 48px)">
+      <div class="g2">
+        <div class="stack" style="gap: 12px">
+          <span class="eyebrow lt">Introdução</span>
+          <h3 style="font-size: clamp(24px, 2.6vw, 32px); line-height: 1.15; font-weight: 800; color: #ffffff">Descubra seu ponto de partida</h3>
+          <p class="ts" style="color: rgba(255,255,255,0.86)">Antes de qualquer técnica, você vai compreender a proposta do treinamento, conhecer os cuidados necessários e realizar sua primeira avaliação.</p>
+        </div>
+        <div class="stack" style="gap: 12px">
+          <p style="font-size: 16px; font-weight: 700; color: #ffffff">Aulas:</p>
+          <ol class="pills lt">
+            <li>Boas-vindas</li>
+            <li>Para quem é o curso</li>
+            <li>Alertas e cuidados</li>
+            <li>Avaliação inicial</li>
+            <li>Como fazer este curso</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 22px">
+      <div class="card stack" style="flex: 1 1 340px; min-width: 0; gap: 14px">
+        <div class="row" style="align-items: center"><span class="chip rn"><svg class="ic"><use href="#i-mic"></use></svg></span><span class="lbl" style="color: #b71c1c">Módulo 01</span></div>
+        <h3 style="font-size: 24px; line-height: 1.2; font-weight: 800">A voz por trás da sua liderança</h3>
+        <p class="ts">Você sabe como sua voz é produzida? Já parou para pensar no que ela comunica, mesmo quando você não percebe?</p>
+        <p class="ts mut">Neste primeiro módulo, você vai compreender a relação entre voz e liderança, reconhecer suas características vocais e estabelecer um objetivo claro para seu desenvolvimento.</p>
+        <p style="font-size: 16px; font-weight: 700; margin-top: 4px">Aulas:</p>
+        <ol class="pills">
+          <li>O que é uma voz líder?</li>
+          <li>Produção da voz</li>
+          <li>O que a voz comunica?</li>
+          <li>Como está a sua voz?</li>
+          <li>Definindo sua meta</li>
+        </ol>
+      </div>
+      <div class="card stack" style="flex: 1 1 340px; min-width: 0; gap: 14px">
+        <div class="row" style="align-items: center"><span class="chip rn"><svg class="ic"><use href="#i-mega"></use></svg></span><span class="lbl" style="color: #b71c1c">Módulo 02</span></div>
+        <h3 style="font-size: 24px; line-height: 1.2; font-weight: 800">Uma voz clara, firme e compreensível</h3>
+        <p class="ts">Não adianta ter uma boa mensagem se as pessoas têm dificuldade para compreendê-la.</p>
+        <p class="ts mut">Aqui, você aprenderá recursos para melhorar a articulação, projetar a voz, identificar vícios de linguagem e reconhecer como o tom utilizado pode influenciar a percepção de segurança ou dúvida.</p>
+        <p style="font-size: 16px; font-weight: 700; margin-top: 4px">Aulas:</p>
+        <ol class="pills">
+          <li>Para que todos te entendam</li>
+          <li>Para que todos te ouçam</li>
+          <li>Limpando os vícios</li>
+          <li>Qual o seu tom?</li>
+          <li>Certeza ou dúvida?</li>
+        </ol>
+      </div>
+      <div class="card stack" style="flex: 1 1 340px; min-width: 0; gap: 14px">
+        <div class="row" style="align-items: center"><span class="chip rn"><svg class="ic"><use href="#i-pause"></use></svg></span><span class="lbl" style="color: #b71c1c">Módulo 03</span></div>
+        <h3 style="font-size: 24px; line-height: 1.2; font-weight: 800">O poder de conduzir a atenção</h3>
+        <p class="ts">Uma comunicação interessante não depende de falar o tempo inteiro.</p>
+        <p class="ts mut">Ela também depende de saber desacelerar, criar pausas, destacar ideias e variar a maneira de apresentar uma informação.</p>
+        <p class="ts mut">Neste módulo, você vai desenvolver recursos para dar mais ritmo, intenção e expressividade à sua fala.</p>
+        <p style="font-size: 16px; font-weight: 700; margin-top: 4px">Aulas:</p>
+        <ol class="pills">
+          <li>Ritmo seguro</li>
+          <li>Pausa é poder</li>
+          <li>Ênfase traz atenção</li>
+          <li>Fala dinâmica</li>
+          <li>Treine agora</li>
+        </ol>
+      </div>
+      <div class="card stack" style="flex: 1 1 340px; min-width: 0; gap: 14px">
+        <div class="row" style="align-items: center"><span class="chip rn"><svg class="ic"><use href="#i-person"></use></svg></span><span class="lbl" style="color: #b71c1c">Módulo 04</span></div>
+        <h3 style="font-size: 24px; line-height: 1.2; font-weight: 800">Uma presença que vai além das palavras</h3>
+        <p class="ts">Seu corpo também está comunicando.</p>
+        <p class="ts mut">A maneira como você se posiciona, movimenta as mãos, utiliza as expressões faciais e ocupa o espaço pode reforçar ou enfraquecer sua mensagem.</p>
+        <p class="ts mut">Aqui, você vai aprender a alinhar voz e corpo para desenvolver uma presença mais segura, coerente e natural.</p>
+        <p style="font-size: 16px; font-weight: 700; margin-top: 4px">Aulas:</p>
+        <ol class="pills">
+          <li>Postura segura</li>
+          <li>Gestos do líder</li>
+          <li>Seu rosto fala</li>
+          <li>Seu corpo também fala</li>
+          <li>Assinatura de presença</li>
+        </ol>
+      </div>
+      <div class="card stack" style="flex: 1 1 340px; min-width: 0; gap: 14px">
+        <div class="row" style="align-items: center"><span class="chip rn"><svg class="ic"><use href="#i-users"></use></svg></span><span class="lbl" style="color: #b71c1c">Módulo 05</span></div>
+        <h3 style="font-size: 24px; line-height: 1.2; font-weight: 800">A comunicação nas relações de liderança</h3>
+        <p class="ts">Uma das habilidades mais importantes de quem lidera é conseguir se comunicar bem mesmo quando a situação exige firmeza.</p>
+        <p class="ts mut">Neste módulo, você aprenderá sobre escuta, conexão, limites, controle da intensidade vocal e construção de uma marca pessoal coerente com a maneira como deseja ser percebida.</p>
+        <p style="font-size: 16px; font-weight: 700; margin-top: 4px">Aulas:</p>
+        <ol class="pills">
+          <li>Escute primeiro</li>
+          <li>Rapport é conexão</li>
+          <li>Impondo limites</li>
+          <li>Não eleve sua voz</li>
+          <li>Marca pessoal</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="card dk" style="border-radius: 26px; padding: clamp(28px, 4vw, 48px)">
+      <div class="g2">
+        <div class="stack" style="gap: 12px">
+          <span class="eyebrow lt">Encerramento</span>
+          <h3 style="font-size: clamp(24px, 2.6vw, 32px); line-height: 1.15; font-weight: 800; color: #ffffff">Reconheça o quanto você evoluiu</h3>
+          <p class="ts" style="color: rgba(255,255,255,0.86)">Ao final da jornada, você será convidada a revisitar sua comunicação, observar o que desenvolveu e identificar quais habilidades deseja continuar aprimorando.</p>
+        </div>
+        <div class="stack" style="gap: 12px">
+          <p style="font-size: 16px; font-weight: 700; color: #ffffff">Aulas:</p>
+          <ol class="pills lt">
+            <li>Avaliação final</li>
+            <li>Análise de evolução</li>
+            <li>Próximos passos</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="border-radius: 28px; padding: clamp(28px, 4.5vw, 56px); background: #f8f4f0; box-shadow: none; border: 2px dashed #d9b9b4">
+      <div class="g2 g2c">
+        <div class="stack" style="gap: 14px">
+          <h3 style="font-size: clamp(24px, 2.8vw, 36px); line-height: 1.15; font-weight: 800">Você não precisa aprender tudo de uma vez.</h3>
+          <p class="tx">O importante é percorrer a jornada, compreender os recursos e encontrar oportunidades de praticá-los na sua realidade.</p>
+          <p class="tx mut">Porque uma comunicação mais consciente é construída também nas pequenas situações do dia a dia.</p>
+        </div>
+        <div style="justify-self: start"><button type="button" class="btn btn-red" onclick="openModal()">Quero começar minha jornada</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 10 ================= -->
+<section class="sec" style="background: #ffffff">
+  <div class="wrap" style="display: flex; flex-direction: column; gap: clamp(32px, 4vw, 52px)">
+    <div class="g2 g2c">
+      <div class="frame" style="justify-self: center"><img src="images/foto-08.jpg" alt="Gabriella Parra sentada, de terno azul, olhando para a câmera" style="object-position: center 25%"></div>
+      <div class="stack" style="gap: 18px; align-items: flex-start">
+        <h2 class="h2" style="max-width: 22ch">Quem vai ajudar você a descobrir o potencial da sua própria voz?</h2>
+        <h3 style="font-size: clamp(34px, 4.4vw, 56px); line-height: 1; font-weight: 800; color: #b71c1c">Gabriella Parra</h3>
+        <p class="dsp" style="font-size: 20px; line-height: 1.4; font-weight: 700; max-width: 34ch">Fonoaudióloga especialista em Voz Profissional, com mais de 20 anos de experiência.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 14px; width: 100%">
+          <div class="card flat" style="flex: 1 1 150px; background: #f8f4f0; border-radius: 18px; padding: 18px 20px"><p class="dsp" style="font-size: 34px; line-height: 1; font-weight: 800; color: #b71c1c">+20</p><p style="font-size: 15px; line-height: 1.4; margin-top: 6px; color: #4a4542">anos de experiência</p></div>
+          <div class="card flat" style="flex: 1 1 150px; background: #f8f4f0; border-radius: 18px; padding: 18px 20px"><p class="dsp" style="font-size: 34px; line-height: 1; font-weight: 800; color: #b71c1c">USP</p><p style="font-size: 15px; line-height: 1.4; margin-top: 6px; color: #4a4542">formação</p></div>
+          <div class="card flat" style="flex: 1 1 150px; background: #f8f4f0; border-radius: 18px; padding: 18px 20px"><p class="dsp" style="font-size: 34px; line-height: 1; font-weight: 800; color: #b71c1c">Voz</p><p style="font-size: 15px; line-height: 1.4; margin-top: 6px; color: #4a4542">Profissional</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="g2">
+      <div class="stack" style="gap: 14px">
+        <p class="tx">Ao longo de sua trajetória, Gabriella Parra dedicou seu trabalho ao estudo e ao desenvolvimento da voz profissional, compreendendo como a comunicação participa da maneira como as pessoas se expressam e são percebidas.</p>
+        <p class="tx mut">Com formação pela USP e mais de duas décadas de atuação, Gabriella reúne conhecimento técnico e experiência para orientar profissionais que desejam utilizar melhor seus recursos vocais.</p>
+      </div>
+      <div class="stack" style="gap: 14px">
+        <p class="tx">Para ela, desenvolver uma voz de liderança não significa criar uma voz artificial ou seguir um padrão único de comunicação.</p>
+        <p class="tx mut">Cada pessoa possui características, experiências e formas de expressão que precisam ser respeitadas.</p>
+        <p class="tx mut">Por isso, o Voz Líder foi estruturado para ajudar você a compreender sua própria comunicação, ampliar seus recursos e desenvolver uma presença que faça sentido para sua personalidade e seus objetivos profissionais.</p>
+      </div>
+    </div>
+    <div class="card wn" style="border-radius: 28px; padding: clamp(28px, 4.5vw, 56px)">
+      <p class="dsp" style="font-size: clamp(22px, 2.8vw, 34px); line-height: 1.25; font-weight: 800; color: #ffffff; max-width: 36ch">Afinal, a melhor voz para exercer sua liderança não é a de outra pessoa. É a sua, utilizada com consciência e intenção.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 11 ================= -->
+<section class="dots" style="background-color: #212121; color: #ffffff">
+  <div class="sec" style="padding-top: clamp(24px, 3vw, 40px); padding-bottom: clamp(32px, 4vw, 56px)">
+    <div class="wrap" style="display: flex; flex-direction: column; gap: clamp(28px, 3.5vw, 44px)">
+      <div class="g2">
+        <h2 class="h2" style="color: #ffffff; max-width: 22ch">E para quem decidir começar agora, preparamos algo a mais.</h2>
+        <div class="stack" style="gap: 14px">
+          <p class="tx" style="color: rgba(255,255,255,0.88)">Eu sei que desenvolver a comunicação é uma experiência muito particular.</p>
+          <p class="tx" style="color: rgba(255,255,255,0.88)">Cada pessoa possui seus desafios, suas características e situações profissionais nas quais gostaria de se sentir mais segura.</p>
+        </div>
+      </div>
+
+      <div class="card gl" style="border-radius: 28px; padding: clamp(28px, 4.5vw, 56px)">
+        <div class="g2">
+          <div class="stack" style="gap: 16px">
+            <div class="row" style="align-items: center"><span class="chip lt rn"><svg class="ic"><use href="#i-users"></use></svg></span><p class="lbl" style="color: #ff8a80; line-height: 1.6">Bônus<br>Para todas as inscritas</p></div>
+            <h3 style="font-size: clamp(26px, 3.2vw, 40px); line-height: 1.12; font-weight: 800; color: #ffffff">Comunidade Voz Líder: um espaço para continuar crescendo</h3>
+            <p class="tx" style="color: rgba(255,255,255,0.88)">A comunicação também se desenvolve por meio da troca.</p>
+            <p class="tx" style="color: rgba(255,255,255,0.88)">Por isso, todas as pessoas que se inscreverem no Voz Líder terão acesso à nossa comunidade exclusiva de dúvidas e networking, em um grupo de WhatsApp.</p>
+          </div>
+          <div class="stack" style="gap: 16px">
+            <p class="tx" style="color: rgba(255,255,255,0.88)">Um ambiente para compartilhar experiências, conversar sobre os desafios da comunicação, trocar aprendizados e criar conexões com outras profissionais que também estão nessa jornada.</p>
+            <p class="tx" style="color: rgba(255,255,255,0.88)">Porque é muito bom perceber que outras pessoas vivem situações parecidas com as nossas e também estão buscando evoluir.</p>
+            <p class="tx qbar lt" style="font-weight: 700; color: #ffffff">Você não estará apenas adquirindo um curso. Estará entrando para uma comunidade de pessoas que desejam se comunicar e liderar melhor.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 14px; align-items: flex-start">
+        <button type="button" class="btn btn-light" onclick="openModal()">Quero garantir minha inscrição</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 12 | OFERTA ================= -->
+<section id="oferta" class="sec" style="background: #f8f4f0; padding-top: clamp(24px, 3vw, 40px)">
+  <div class="wrap" style="display: flex; flex-direction: column; gap: clamp(32px, 4vw, 52px)">
+    <div class="g2">
+      <div class="stack" style="gap: 20px">
+        <h2 class="h2" style="max-width: 24ch">Quanto vale conseguir se expressar melhor nos momentos em que sua comunicação mais importa?</h2>
+        <p class="tx mut">Pense em quantas vezes você utiliza sua voz ao longo de um único dia.</p>
+      </div>
+      <div class="tl">
+        <div class="row" style="align-items: center"><span class="chip rn"><svg class="ic"><use href="#i-users"></use></svg></span><p class="card dsp" style="flex: 1; padding: 16px 22px; border-radius: 16px; font-size: 20px; line-height: 1.3; font-weight: 700">Para orientar alguém.</p></div>
+        <div class="row" style="align-items: center"><span class="chip rn"><svg class="ic"><use href="#i-brief"></use></svg></span><p class="card dsp" style="flex: 1; padding: 16px 22px; border-radius: 16px; font-size: 20px; line-height: 1.3; font-weight: 700">Para apresentar um projeto.</p></div>
+        <div class="row" style="align-items: center"><span class="chip rn"><svg class="ic"><use href="#i-target"></use></svg></span><p class="card dsp" style="flex: 1; padding: 16px 22px; border-radius: 16px; font-size: 20px; line-height: 1.3; font-weight: 700">Para resolver um problema.</p></div>
+        <div class="row" style="align-items: center"><span class="chip rn"><svg class="ic"><use href="#i-chat"></use></svg></span><p class="card dsp" style="flex: 1; padding: 16px 22px; border-radius: 16px; font-size: 20px; line-height: 1.3; font-weight: 700">Para fazer uma pergunta importante.</p></div>
+        <div class="row" style="align-items: center"><span class="chip rn"><svg class="ic"><use href="#i-shield"></use></svg></span><p class="card dsp" style="flex: 1; padding: 16px 22px; border-radius: 16px; font-size: 20px; line-height: 1.3; font-weight: 700">Para defender sua opinião ou conduzir uma decisão.</p></div>
+      </div>
+    </div>
+    <div class="g2">
+      <div class="stack" style="gap: 14px">
+        <p class="tx">A comunicação acompanha praticamente todos os momentos da sua vida profissional.</p>
+        <p class="tx mut">E, ainda assim, é comum dedicarmos anos ao desenvolvimento de conhecimentos técnicos sem reservar a mesma atenção à maneira como os comunicamos.</p>
+      </div>
+      <div class="qbar stack" style="gap: 10px">
+        <p class="tx" style="font-weight: 700">O Voz Líder é um convite para mudar isso.</p>
+        <p class="tx">Não para que você se torne outra pessoa.</p>
+        <p class="tx">Mas para que aprenda a utilizar sua voz, sua expressão e sua presença com mais consciência.</p>
+      </div>
+    </div>
+
+    <h3 style="font-size: clamp(24px, 2.8vw, 36px); line-height: 1.15; font-weight: 800; margin-top: 12px">Veja tudo o que está incluído na sua matrícula:</h3>
+
+    <div class="g2" style="gap: 24px; align-items: stretch">
+      <div class="card wn" style="border-radius: 28px; padding: clamp(28px, 4vw, 48px); display: flex; flex-direction: column; gap: 18px">
+        <p class="lbl" style="color: #ff8a80">Treinamento completo Voz Líder</p>
+        <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 14px">
+          <li class="row"><span class="chip sm rn"><svg class="ic"><use href="#i-check"></use></svg></span><span style="font-size: 17px; line-height: 1.55; color: rgba(255,255,255,0.94)">33 aulas, incluindo introdução, cinco módulos principais e encerramento.</span></li>
+          <li class="row"><span class="chip sm rn"><svg class="ic"><use href="#i-check"></use></svg></span><span style="font-size: 17px; line-height: 1.55; color: rgba(255,255,255,0.94)">Conteúdo sobre comunicação vocal, clareza, projeção, ritmo e expressividade.</span></li>
+          <li class="row"><span class="chip sm rn"><svg class="ic"><use href="#i-check"></use></svg></span><span style="font-size: 17px; line-height: 1.55; color: rgba(255,255,255,0.94)">Técnicas de postura, gestos e linguagem corporal.</span></li>
+          <li class="row"><span class="chip sm rn"><svg class="ic"><use href="#i-check"></use></svg></span><span style="font-size: 17px; line-height: 1.55; color: rgba(255,255,255,0.94)">Recursos para comunicação assertiva e relações de liderança.</span></li>
+          <li class="row"><span class="chip sm rn"><svg class="ic"><use href="#i-check"></use></svg></span><span style="font-size: 17px; line-height: 1.55; color: rgba(255,255,255,0.94)">Exercícios e atividades práticas.</span></li>
+          <li class="row"><span class="chip sm rn"><svg class="ic"><use href="#i-check"></use></svg></span><span style="font-size: 17px; line-height: 1.55; color: rgba(255,255,255,0.94)">Avaliação inicial e final para observar sua evolução.</span></li>
+          <li class="row"><span class="chip sm rn"><svg class="ic"><use href="#i-check"></use></svg></span><span style="font-size: 17px; line-height: 1.55; color: rgba(255,255,255,0.94)">Acesso à Comunidade Voz Líder de dúvidas e networking, em um grupo de WhatsApp.</span></li>
+        </ul>
+      </div>
+      <div class="card" style="border-radius: 28px; padding: 0; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 30px 70px -30px rgba(83,3,11,0.55)">
+        <div style="background: #b71c1c; padding: 18px clamp(24px, 3.5vw, 40px)"><p style="font-size: 18px; line-height: 1.4; font-weight: 700; color: #ffffff">Seu investimento para começar essa jornada:</p></div>
+        <div style="padding: clamp(24px, 3.5vw, 40px); display: flex; flex-direction: column; gap: 16px; flex: 1">
+          <p class="dsp" style="font-size: clamp(38px, 4.6vw, 58px); line-height: 1; font-weight: 800; color: #b71c1c; letter-spacing: -0.03em">12x de R$ 51,40</p>
+          <p style="font-size: 20px; line-height: 1.4; font-weight: 700; color: #212121">ou R$ 497,00 à vista</p>
+          <div style="height: 1px; background: #ece3da"></div>
+          <p class="ts mut">Você poderá aprender e praticar recursos que ajudam a tornar sua comunicação mais clara, expressiva, firme e consciente.</p>
+          <p class="ts mut">Tudo isso com a orientação de uma profissional que dedica sua trajetória ao desenvolvimento da voz.</p>
+          <button type="button" class="btn btn-red" onclick="openModal()" style="margin-top: 6px; width: 100%">Sim, quero garantir meu Voz Líder</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 13 ================= -->
+<section class="sec" style="background: #f5f5f5">
+  <div class="wrap" style="display: flex; flex-direction: column; gap: clamp(32px, 4vw, 52px)">
+    <div class="g2 g2c">
+      <svg class="illu" viewBox="0 0 400 500" role="img" aria-label="Calendário com o dia de hoje marcado em vermelho e compromissos futuros esmaecidos" style="max-width: 380px; justify-self: center">
+        <rect width="400" height="500" fill="#ece3da"></rect>
+        <rect x="60" y="90" width="280" height="320" rx="20" fill="#ffffff"></rect>
+        <path d="M60 110A20 20 0 0 1 80 90H320A20 20 0 0 1 340 110V150H60Z" fill="#53030b"></path>
+        <circle cx="125" cy="90" r="9" fill="#212121"></circle><circle cx="275" cy="90" r="9" fill="#212121"></circle>
+        <path d="M156 192h0 M200 192h0 M244 192h0 M288 192h0 M112 236h0 M156 236h0 M200 236h0 M288 236h0 M112 280h0 M156 280h0 M200 280h0 M244 280h0 M288 280h0 M112 324h0 M200 324h0 M244 324h0 M288 324h0 M112 368h0 M156 368h0 M200 368h0 M244 368h0" stroke="#d8cfc7" stroke-width="8" stroke-linecap="round" fill="none"></path>
+        <g fill="#53030b" fill-opacity="0.16"><rect x="228" y="220" width="32" height="32" rx="9"></rect><rect x="140" y="308" width="32" height="32" rx="9"></rect><rect x="272" y="352" width="32" height="32" rx="9"></rect></g>
+        <circle cx="112" cy="192" r="21" fill="#b71c1c"></circle>
+        <path d="M102 192L110 200L123 184" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+      </svg>
+      <div class="stack" style="gap: 18px">
+        <h2 class="h2">Você não precisa esperar sua próxima apresentação, reunião ou conversa difícil para começar a cuidar da sua comunicação.</h2>
+        <p class="tx mut">Talvez você já tenha percebido alguns hábitos que gostaria de mudar.</p>
+      </div>
+    </div>
+    <div class="g3" style="grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr))">
+      <div class="card stack" style="gap: 14px"><span class="chip soft"><svg class="ic"><use href="#i-gauge"></use></svg></span><p class="ts">Aquela aceleração quando precisa explicar uma ideia importante.</p></div>
+      <div class="card stack" style="gap: 14px"><span class="chip soft"><svg class="ic"><use href="#i-pause"></use></svg></span><p class="ts">A dificuldade de fazer uma pausa.</p></div>
+      <div class="card stack" style="gap: 14px"><span class="chip soft"><svg class="ic"><use href="#i-shield"></use></svg></span><p class="ts">O desconforto ao estabelecer um limite.</p></div>
+      <div class="card stack" style="gap: 14px"><span class="chip soft"><svg class="ic"><use href="#i-mic"></use></svg></span><p class="ts">Ou a sensação de que sua fala poderia transmitir mais segurança.</p></div>
+    </div>
+    <div class="g2">
+      <div class="stack" style="gap: 14px">
+        <p class="tx">São situações comuns, mas que merecem atenção quando a comunicação faz parte das suas responsabilidades profissionais.</p>
+        <p class="tx mut">Você pode continuar tentando ajustar essas questões apenas no momento em que elas aparecem.</p>
+        <p class="tx">Ou pode começar a compreendê-las, praticar novos recursos e desenvolver sua comunicação de maneira mais intencional.</p>
+      </div>
+      <div class="qbar stack" style="gap: 10px">
+        <p class="tx" style="font-weight: 700">É para isso que o Voz Líder foi criado.</p>
+        <p class="tx">Para oferecer um caminho de desenvolvimento que respeita quem você é e ajuda você a utilizar melhor sua voz.</p>
+      </div>
+    </div>
+    <div class="card wn" style="border-radius: 28px; padding: clamp(28px, 4.5vw, 56px)">
+      <div class="g2 g2c">
+        <p class="dsp" style="font-size: clamp(22px, 2.6vw, 32px); line-height: 1.25; font-weight: 800; color: #ffffff">Sua experiência já faz parte da sua história. Sua comunicação pode aprender a expressá-la cada vez melhor.</p>
+        <div style="justify-self: start"><button type="button" class="btn btn-light" onclick="openModal()">Quero começar agora</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 14 ================= -->
+<section class="sec" style="background: #f8f4f0">
+  <div class="wrap g2">
+    <div class="stack" style="gap: 18px; position: sticky; top: 100px">
+      <span class="chip"><svg class="ic"><use href="#i-chat"></use></svg></span>
+      <h2 class="h2">Perguntas frequentes</h2>
+    </div>
+    <div class="stack" style="gap: 12px">
+      <details>
+        <summary>Eu nunca fiz nenhum treinamento de voz. O curso é para mim?</summary>
+        <p class="tx ans">Sim. O Voz Líder foi estruturado para começar pelo reconhecimento da própria comunicação. Você vai compreender conceitos básicos sobre a voz antes de avançar para os recursos e exercícios dos módulos.</p>
+      </details>
+      <details>
+        <summary>Preciso trabalhar como líder para fazer o curso?</summary>
+        <p class="tx ans">Não. O treinamento também é indicado para profissionais que desejam desenvolver sua comunicação, melhorar sua presença em reuniões, apresentações ou conversas e se preparar para assumir novas responsabilidades.</p>
+      </details>
+      <details>
+        <summary>Tenho uma voz fina ou suave. Consigo transmitir autoridade mesmo assim?</summary>
+        <p class="tx ans">Sim. Autoridade vocal não depende de ter uma voz grave. O curso trabalha diferentes recursos de comunicação, como clareza, ritmo, pausas, entonação e presença, sempre respeitando as características de cada pessoa.</p>
+      </details>
+      <details>
+        <summary>Vou precisar mudar minha maneira de falar completamente?</summary>
+        <p class="tx ans">Não. A proposta é ampliar seus recursos e ajudá-la a utilizar sua voz de maneira mais consciente. O objetivo não é criar uma personalidade artificial, mas desenvolver uma comunicação coerente com quem você é.</p>
+      </details>
+      <details>
+        <summary>O treinamento possui exercícios práticos?</summary>
+        <p class="tx ans">Sim. Durante a jornada, você terá atividades para observar e desenvolver sua comunicação, incluindo gravações curtas e exercícios relacionados aos temas das aulas.</p>
+      </details>
+      <details>
+        <summary>Como vou acompanhar minha evolução?</summary>
+        <p class="tx ans">O treinamento começa com uma avaliação inicial e termina com uma nova etapa de avaliação. Assim, você poderá comparar seus registros, reconhecer diferenças e identificar pontos que deseja continuar aprimorando.</p>
+      </details>
+      <details>
+        <summary>Todos os alunos terão acesso à comunidade?</summary>
+        <p class="tx ans">Sim. Todas as pessoas que adquirirem o Voz Líder poderão participar da comunidade exclusiva de dúvidas e networking, em um grupo de WhatsApp.</p>
+      </details>
+      <details>
+        <summary>O curso substitui acompanhamento fonoaudiológico?</summary>
+        <p class="tx ans">Não. O Voz Líder é um treinamento educacional voltado ao desenvolvimento da comunicação vocal e corporal. Ele não substitui avaliação, diagnóstico ou tratamento médico e fonoaudiológico individualizado.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 15 ================= -->
+<section class="dots" style="background-color: #212121; color: #ffffff">
+  <div class="sec" style="padding-top: clamp(24px, 3vw, 40px)">
+    <div class="wrap" style="display: flex; flex-direction: column; gap: clamp(32px, 4vw, 52px)">
+      <div class="g2 g2c">
+        <div class="stack" style="gap: 20px">
+          <h2 class="h2" style="font-size: clamp(30px, 3.8vw, 50px); line-height: 1.1; color: #ffffff; max-width: 22ch">Sua voz conta parte da sua história. Aprenda a fazer com que ela comunique a profissional que você é.</h2>
+          <p class="tx" style="color: rgba(255,255,255,0.88)">Você não chegou até aqui por acaso.</p>
+          <p class="tx" style="color: rgba(255,255,255,0.88)">Sua trajetória foi construída por experiências, aprendizados, desafios, decisões e conquistas.</p>
+          <p class="tx" style="color: #ffffff; font-weight: 700">Tudo isso faz parte da sua autoridade.</p>
+        </div>
+        <div class="frame lt" style="justify-self: center"><img src="images/foto-03.jpg" alt="Gabriella Parra sorrindo, apoiada em uma das mãos"></div>
+      </div>
+      <div class="g2">
+        <div class="stack" style="gap: 14px">
+          <p class="tx" style="color: rgba(255,255,255,0.88)">Mas, quando chega o momento de comunicar uma ideia, conduzir uma conversa ou se posicionar diante de outras pessoas, existe algo que participa diretamente da maneira como sua mensagem será recebida.</p>
+          <p class="dsp" style="font-size: clamp(32px, 4vw, 52px); line-height: 1.05; font-weight: 800; color: #ff5a52">A sua voz.</p>
+          <p class="tx" style="color: rgba(255,255,255,0.88)">E ela merece ser desenvolvida com o mesmo cuidado que você dedica às outras habilidades da sua profissão.</p>
+        </div>
+        <div class="stack" style="gap: 12px">
+          <div class="card gl row" style="align-items: center; padding: 16px 20px; border-radius: 16px"><span class="chip lt sm rn"><svg class="ic"><use href="#i-xc"></use></svg></span><p class="tx" style="color: rgba(255,255,255,0.92)">Você não precisa falar como outra pessoa.</p></div>
+          <div class="card gl row" style="align-items: center; padding: 16px 20px; border-radius: 16px"><span class="chip lt sm rn"><svg class="ic"><use href="#i-xc"></use></svg></span><p class="tx" style="color: rgba(255,255,255,0.92)">Não precisa forçar um tom que não combina com você.</p></div>
+          <div class="card gl row" style="align-items: center; padding: 16px 20px; border-radius: 16px"><span class="chip lt sm rn"><svg class="ic"><use href="#i-xc"></use></svg></span><p class="tx" style="color: rgba(255,255,255,0.92)">E não precisa acreditar que somente quem fala alto consegue ser ouvido.</p></div>
+        </div>
+      </div>
+      <div class="card rd" style="border-radius: 30px; padding: clamp(28px, 5vw, 64px)">
+        <div class="g2 g2c">
+          <div class="stack" style="gap: 18px">
+            <p class="dsp" style="font-size: clamp(20px, 2.3vw, 28px); line-height: 1.3; font-weight: 800; color: #ffffff">Você precisa conhecer melhor sua voz e aprender a utilizá-la com clareza, intenção e autenticidade.</p>
+            <p class="tx" style="color: rgba(255,255,255,0.94)">É esse o convite que faço a você com o Voz Líder.</p>
+          </div>
+          <div class="card" style="border-radius: 22px; display: flex; flex-direction: column; gap: 14px; align-items: flex-start; color: #212121">
+            <h3 style="font-size: clamp(24px, 2.8vw, 34px); line-height: 1.15; font-weight: 800; color: #53030b">Vamos desenvolver essa comunicação juntas?</h3>
+            <div style="display: flex; flex-direction: column; gap: 4px">
+              <p class="dsp" style="font-size: clamp(34px, 4vw, 48px); line-height: 1.05; font-weight: 800; color: #b71c1c; letter-spacing: -0.03em">12x de R$ 51,40</p>
+              <p style="font-size: 17px; line-height: 1.4; font-weight: 700; color: #212121">ou R$ 497,00 à vista</p>
+            </div>
+            <button type="button" class="btn btn-red" onclick="openModal()" style="width: 100%">Sim, quero desenvolver minha Voz Líder</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer style="background: #000000; padding: 40px clamp(20px, 4vw, 48px); box-sizing: border-box">
+  <div class="wrap" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px">
+    <img src="images/logo-claro.png" alt="Curso Voz Líder" style="height: 44px; width: auto; display: block">
+    <p style="font-size: 15px; line-height: 1.5; color: rgba(255,255,255,0.7); max-width: 44ch">Comunicação, presença e autoridade para liderar com clareza e autenticidade.</p>
+  </div>
+</footer>
+</div>
+
+
+<!-- ================= POP-UP DE CADASTRO ================= -->
+<div id="modal" style="display: none; position: fixed; inset: 0; z-index: 1000; align-items: center; justify-content: center; padding: 16px; box-sizing: border-box" class="vl">
+  <button type="button" aria-label="Fechar" tabindex="-1" onclick="closeModal()" style="position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; padding: 0; border: 0; background: rgba(18, 6, 7, 0.74); cursor: pointer"></button>
+  <div role="dialog" aria-modal="true" aria-labelledby="modal-titulo" style="position: relative; width: 100%; max-width: 480px; max-height: 100%; overflow-y: auto; box-sizing: border-box; background: #ffffff; border-radius: 20px; padding: clamp(24px, 4vw, 40px); box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45)">
+    <button type="button" aria-label="Fechar" onclick="closeModal()" style="position: absolute; top: 10px; right: 10px; width: 44px; height: 44px; border: 0; border-radius: 50%; background: transparent; cursor: pointer; display: inline-flex; align-items: center; justify-content: center">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#212121" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6L18 18M18 6L6 18"/></svg>
+    </button>
+    <form id="lead-form" novalidate style="display: flex; flex-direction: column; gap: 18px">
+      <div style="display: flex; flex-direction: column; gap: 8px; padding-right: 36px">
+        <h2 id="modal-titulo" style="font-size: clamp(24px, 3vw, 30px); line-height: 1.15; font-weight: 800; color: #53030b">Falta pouco para garantir seu Voz Líder</h2>
+        <p style="font-size: 16px; line-height: 1.55; color: #4a4542">Preencha seus dados e você segue direto para a página de pagamento.</p>
+      </div>
+      <div class="fld">
+        <label for="f-nome">Nome</label>
+        <input id="f-nome" name="name" type="text" autocomplete="name" placeholder="Seu nome">
+        <p class="err" id="err-nome" hidden>Informe seu nome.</p>
+      </div>
+      <div class="fld">
+        <label for="f-email">E-mail</label>
+        <input id="f-email" name="email" type="email" autocomplete="email" placeholder="voce@email.com">
+        <p class="err" id="err-email" hidden>Informe um e-mail válido.</p>
+      </div>
+      <div class="fld">
+        <label for="f-telefone">Telefone com DDD</label>
+        <input id="f-telefone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="(00) 00000-0000">
+        <p class="err" id="err-telefone" hidden>Informe um telefone válido, com DDD.</p>
+      </div>
+      <button type="submit" id="btn-enviar" class="btn btn-red" style="width: 100%; margin-top: 4px">Ir para o pagamento</button>
+      <div id="sent-box" hidden style="flex-direction: column; gap: 12px; margin-top: 4px">
+        <p style="font-size: 16px; line-height: 1.55; color: #212121; font-weight: 500">Pronto! A página de pagamento abre em uma nova aba. Se ela não abrir, use o botão abaixo.</p>
+        <a class="btn btn-red" href="https://sun.eduzz.com/40QRRJVJ9B" target="_blank" rel="noopener" style="width: 100%">Abrir página de pagamento</a>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>!function(){var k="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9tbnB2cml4ZHF0c2R6bWxyY2xqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg5ODkzMTcsImV4cCI6MjA5NDU2NTMxN30.cYOoc_iillMB-2RuJSj7H5SG5KAw2QmB8Rj6YfmL9S8",u="https://omnpvrixdqtsdzmlrclj.supabase.co/functions/v1/precheckout-script/ecc567d8-e7c2-4e4c-9183-119d61792c16/23395a62-2d07-4836-8ae0-b036db8a6020";var x=new XMLHttpRequest;x.open("GET",u,!0),x.setRequestHeader("apikey",k),x.onload=function(){if(200===x.status){var s=document.createElement("script");s.textContent=x.responseText;(document.head||document.body).appendChild(s)}};x.send()}();</script>
+<script>
+var CHECKOUT = 'https://sun.eduzz.com/40QRRJVJ9B';
+
+function maskPhone(value) {
+  var d = String(value).replace(/\D/g, '').slice(0, 11);
+  if (d.length === 0) return '';
+  if (d.length <= 2) return '(' + d;
+  if (d.length <= 6) return '(' + d.slice(0, 2) + ') ' + d.slice(2);
+  if (d.length <= 10) return '(' + d.slice(0, 2) + ') ' + d.slice(2, 6) + '-' + d.slice(6);
+  return '(' + d.slice(0, 2) + ') ' + d.slice(2, 7) + '-' + d.slice(7);
+}
+function validName(v) { return String(v).trim().length >= 2; }
+function validEmail(v) { return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(v).trim()); }
+function validPhone(v) {
+  var d = String(v).replace(/\D/g, '');
+  return d.length === 10 || (d.length === 11 && d.charAt(2) === '9');
+}
+
+var modal = document.getElementById('modal');
+var form = document.getElementById('lead-form');
+var fNome = document.getElementById('f-nome');
+var fEmail = document.getElementById('f-email');
+var fTel = document.getElementById('f-telefone');
+var errNome = document.getElementById('err-nome');
+var errEmail = document.getElementById('err-email');
+var errTel = document.getElementById('err-telefone');
+var btnEnviar = document.getElementById('btn-enviar');
+var sentBox = document.getElementById('sent-box');
+var tried = false;
+
+function showSent(on) {
+  btnEnviar.style.display = on ? 'none' : '';
+  sentBox.hidden = !on;
+  sentBox.style.display = on ? 'flex' : 'none';
+}
+function refreshErrors() {
+  errNome.hidden = !(tried && !validName(fNome.value));
+  errEmail.hidden = !(tried && !validEmail(fEmail.value));
+  errTel.hidden = !(tried && !validPhone(fTel.value));
+}
+function openModal() {
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+  setTimeout(function () { fNome.focus(); }, 30);
+}
+function closeModal() {
+  modal.style.display = 'none';
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && modal.style.display === 'flex') closeModal();
+});
+fNome.addEventListener('input', function () { showSent(false); if (tried) refreshErrors(); });
+fEmail.addEventListener('input', function () { showSent(false); if (tried) refreshErrors(); });
+fTel.addEventListener('input', function () {
+  fTel.value = maskPhone(fTel.value);
+  showSent(false);
+  if (tried) refreshErrors();
+});
+showSent(false);
+
+form.addEventListener('submit', function (e) {
+  e.preventDefault();
+  tried = true;
+  refreshErrors();
+  if (!(validName(fNome.value) && validEmail(fEmail.value) && validPhone(fTel.value))) return;
+  try { if (window.fbq) window.fbq('track', 'Lead'); } catch (err) {}
+  var w = window.open(CHECKOUT, '_blank');
+  if (w) { try { w.opener = null; } catch (err) {} }
+  showSent(true);
+});
+</script>
+</body>
+</html>
